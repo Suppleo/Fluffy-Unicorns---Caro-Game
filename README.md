@@ -16,7 +16,7 @@ Tên nhóm: Fluffy Unicorns
 
 ## Demo dự án
 
-Bạn có thể truy cập dự án React tại đây: [https://suppleo.github.io/Fluffy-Unicorns---Employee-Management/](https://suppleo.github.io/Fluffy-Unicorns---Employee-Management/)
+Bạn có thể truy cập dự án React tại đây: [https://suppleo.github.io/Fluffy-Unicorns---Caro-Game/](https://suppleo.github.io/Fluffy-Unicorns---Caro-Game/)
 
 ## Nội dung bài tập
 
