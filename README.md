@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Fluffy Unicorns - Week 8 - Caro Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bài tập tuần 8 môn Công nghệ phát triển phần mềm web  
+Giảng viên: Trần Duy Quang  
+Trường Đại học Quản lý và Công nghệ Thành phố Hồ Chí Minh (UMT)
 
-## Available Scripts
+## Thông tin nhóm
 
-In the project directory, you can run:
+Tên nhóm: Fluffy Unicorns
 
-### `npm start`
+### Thành viên nhóm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Nguyễn Ngọc Thạch - 2201700077
+2. Hoàng Anh - 2201700173
+3. Lê Đức Long - 2201700192
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo dự án
 
-### `npm test`
+Bạn có thể truy cập dự án React tại đây: [https://suppleo.github.io/Fluffy-Unicorns---Employee-Management/](https://suppleo.github.io/Fluffy-Unicorns---Employee-Management/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Nội dung bài tập
 
-### `npm run build`
+Sử dụng tutorial Tic-tac-toe ở đây làm nền tảng: [Tutorial: Tic-Tac-Toe – React](https://react.dev/learn/tutorial-tic-tac-toe)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Viết chương trình chơi caro đơn giản với các yêu cầu mở rộng từ trò chơi trên:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
++ Bàn cờ 20x20
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
++ Nếu có 5 quân liên tiếp theo chiều ngang, chiều dọc, đường chéo thì sẽ chiến thắng
 
-### `npm run eject`
++ Nếu đã đánh hết bàn cờ mà chưa có điều kiện thắng xuất hiện => Hòa.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Cách cài đặt và chạy dự án
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone repository về máy:
+```bash
+git clone <repository-url>
+cd week08-caro
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Cài đặt dependencies:
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Chạy dự án:
+```bash
+npm start
+```
 
-## Learn More
+4. Mở trình duyệt và truy cập `http://localhost:3000`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Công nghệ sử dụng
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React.js
+- Tailwind CSS
 
-### Code Splitting
+## Hướng dẫn chơi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Người chơi X đi trước
+2. Click vào ô trống để đánh dấu
+3. Thắng khi có 5 quân liên tiếp theo hàng ngang, dọc hoặc chéo
+4. Hòa khi đánh hết bàn cờ mà không có người thắng
