@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Fluffy-Unicorns---Caro-Game/static/css/main.a8b0a25e.css",
+    "main.js": "/Fluffy-Unicorns---Caro-Game/static/js/main.5f6c7db7.js",
+    "static/js/453.e36decca.chunk.js": "/Fluffy-Unicorns---Caro-Game/static/js/453.e36decca.chunk.js",
+    "index.html": "/Fluffy-Unicorns---Caro-Game/index.html",
+    "main.a8b0a25e.css.map": "/Fluffy-Unicorns---Caro-Game/static/css/main.a8b0a25e.css.map",
+    "main.5f6c7db7.js.map": "/Fluffy-Unicorns---Caro-Game/static/js/main.5f6c7db7.js.map",
+    "453.e36decca.chunk.js.map": "/Fluffy-Unicorns---Caro-Game/static/js/453.e36decca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8b0a25e.css",
+    "static/js/main.5f6c7db7.js"
+  ]
+}
